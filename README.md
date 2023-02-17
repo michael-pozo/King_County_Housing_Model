@@ -16,15 +16,11 @@ Prior to merging any data together or creating models, the King County Housing D
 
 As part of the EDA process, heatmaps and pairplots were created to identify any relationships between variables that need to be addressed in the upfront. This revealed that the target variable was not normally distributed. To address this, a log transformation was applied to the price column and log_price (price) became the new target.  
 
-
-
-
 ## Baseline Model
 
 The baseline model used was a linear regression using a single varibale to predict price. EDA revealed that sqft_living was the most highly correlated feature with the target variable, so it was chosen for use in the baseline model. The resulting model had a R-squared value of 0.356 and would be the comparison point for our subsequent models.
 
-
-
+<img width="747" alt="Screenshot 2023-02-17 at 4 00 26 PM" src="https://user-images.githubusercontent.com/66101132/219792423-36d92cba-e447-40f9-ba46-5faf019131da.png">
 
 ## Model Progression
 
@@ -53,7 +49,6 @@ The distribtuion of the predicted home prices vs. actual home prices has a stron
 ![Test_graph](https://user-images.githubusercontent.com/66101132/219791871-be76869f-8db0-436f-b86e-ca5ef5b97c4d.png)
 
 
-
 ## Recommendations 
 
 Among the coefficients of our final model, two that are worth highlighting are ZIP code and greenbelt. ZIP code was the largest coefficient, meaning it has the largest influence on home price. Greenbelt, which encodes whether the property is adjacent to a greenbelt, also has a positive influence on home price. These two coefficients were used in combination to make the following recommendations to our stakeholders:
@@ -71,7 +66,7 @@ From the inital EDA of the data set, the ZIP codes 98188, 98198, 98023, 98001, 9
 
 The client could then use the model to evaluate new listings based on their characteristics to identify undervalued properties. If the home meets the client's requirements, the client could approach the home owner about making a deal for the home to convert the space into a public greenspace. The example below uses the model to evaluate projected home prices for poor condition homes in priority ZIP codes with no greenspace and cost less than $300k
 
-
+![download (3)](https://user-images.githubusercontent.com/66101132/219792735-1c11dd72-d924-4e23-ae94-ebbdbefac861.png)
 
 ## Next Steps
 
