@@ -50,6 +50,7 @@ Models 5 & 6 were chosen as the final models for consideration. To measure the a
 The distribtuion of the predicted home prices vs. actual home prices has a strong linear relationship and the residuals are tightly clustered around each other. This shows that the model is both a good predictor of home prices, but also stays consistent with its predictions for all home prices.
 
 
+![Test_graph](https://user-images.githubusercontent.com/66101132/219791871-be76869f-8db0-436f-b86e-ca5ef5b97c4d.png)
 
 
 
@@ -65,6 +66,7 @@ Among the coefficients of our final model, two that are worth highlighting are Z
 
 From the inital EDA of the data set, the ZIP codes 98188, 98198, 98023, 98001, 98003, 98032, 98354, 98168, 98047, 98002 were identified as the bottom ten zipcodes in terms of average house price. These ZIP codes should be the client's priority targets. 
 
+![download](https://user-images.githubusercontent.com/66101132/219791947-ae7a156b-2c30-468a-a61a-84804ee165d9.png)
 
 
 The client could then use the model to evaluate new listings based on their characteristics to identify undervalued properties. If the home meets the client's requirements, the client could approach the home owner about making a deal for the home to convert the space into a public greenspace. The example below uses the model to evaluate projected home prices for poor condition homes in priority ZIP codes with no greenspace and cost less than $300k
